@@ -1,0 +1,112 @@
+/* Reset some basic styles for a clean start */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+background-image: url(sky.jpg);
+background-repeat: no-repeat;
+background-position: center top;
+background-size: cover;
+background-attachment: scroll;
+display: flex;
+justify-content: center;
+align-items: center;
+height: auto;
+padding: 20px;
+}
+
+/* Main form container */
+#survey-form {
+background-color: #93c2ee;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+width: 100%;
+max-width: 500px;
+}
+
+/* Title styling */
+#title {
+text-align: center;
+color: #002547;
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+/* Form labels */
+label {
+display: block;
+margin-bottom: 8px;
+font-size: 15px;
+color: #002547;
+}
+
+p {
+margin-bottom: 10px;
+font-size: 15px;
+color: #002547;
+}
+
+radio, checkbox {
+font-size: 13px;
+color: #002547;
+}
+
+/* Input fields and select box */
+input[type="text"], input[type="email"], input[type="number"], select, textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 15px;
+border: 1px solid #ddd;
+border-radius: 4px;
+font-size: 14px;
+transition: border-color 0.3s;
+}
+
+/* Input and textarea focus effect */
+input:focus, select:focus, textarea:focus {
+border-color: #93c2ee;
+outline: none;
+}
+
+/* Radio buttons and checkboxes */
+input[type="radio"], input[type="checkbox"] {
+margin-right: 6px;
+transform: scale(1.2);
+}
+
+/* Placeholder text styling */
+input::placeholder, textarea::placeholder {
+color: #aaa;
+}
+
+/* Textarea style */
+textarea {
+height: 120px;
+resize: vertical;
+}
+
+/* Button styling */
+button {
+background-color: #002547;
+color: white;
+padding: 12px;
+border: none;
+border-radius: 4px;
+width: 100%;
+font-size: 16px;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+background-color: #398edd;
+}
+
+/* Optional: add some spacing between sections */

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="stylesA.css">
+<form id="survey-form">
+<h1 id="title">Application Form</h1>
+<div>
+<p>Personal information:</p>
+<label id="name-label">Name: </label>
+<input id="name" type="text" required placeholder="Enter your name">
+<br>
+<label id="email-label">Email: </label>
+<input id="email" type="email" required placeholder="example@gmail.com">
+<br>
+<label id="age-label">Age: </label>
+<input id="age" type="number" min="18" max="60" placeholder="Enter your age">
+<br>
+<label id="gender-label">Gender: </label>
+<select id="dropdown">
+<option value="">Select</option>
+<option value="male">Male</option>
+<option value="male">Female</option>
+</select>
+<div>
+<br>
+<p>Preferred training hours:</p>
+<input type="radio" value="num" name="radio">
+<radio>8:00AM - 12:00PM</radio>
+<br>
+<input type="radio" value="num" name="radio">
+<radio>1:00PM - 5:00PM</radio>
+<div>
+<br>
+<p>Select your skills:</p>
+<input type="checkbox" value="check">
+<checkbox>HTML</checkbox>
+<br>
+<input type="checkbox" value="check">
+<checkbox>CSS</checkbox>
+<br>
+<input type="checkbox" value="check">
+<checkbox>Java</checkbox>
+<br>
+<input type="checkbox" value="check">
+<checkbox>Python</checkbox>
+<div>
+<br>
+<p>What are your expectations?</p>
+<textarea placeholder="Enter your expectations here"></textarea>
+<br>
+<button id="submit" type="submit">Submit</button>
+</form>
+</html>
