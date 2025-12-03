@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="stylesA.css">
+</head>
+<body>
+
+<form id="survey-form">
+    <h1 id="title">Application Form</h1>
+
+    <div class="section-box">
+        <p class="section-title">Personal Information</p>
+
+        <label id="name-label">Name:</label>
+        <input id="name" type="text" required placeholder="Enter your name">
+
+        <label id="email-label">Email:</label>
+        <input id="email" type="email" required placeholder="example@gmail.com">
+
+        <label id="age-label">Age:</label>
+        <input id="age" type="number" min="18" max="60" placeholder="Enter your age">
+
+        <label id="gender-label">Gender:</label>
+        <select id="dropdown">
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="male">Female</option>
+        </select>
+    </div>
+
+    <div class="section-box">
+        <p class="section-title">Preferred Training Hours</p>
+
+        <div class="input-group">
+            <input type="radio" value="num" name="radio">
+            <span>8:00AM – 12:00PM</span>
+        </div>
+
+        <div class="input-group">
+            <input type="radio" value="num" name="radio">
+            <span>1:00PM – 5:00PM</span>
+        </div>
+    </div>
+
+    <div class="section-box">
+        <p class="section-title">Select Your Skills</p>
+
+        <div class="input-group">
+            <input type="checkbox" value="check">
+            <span>HTML</span>
+        </div>
+
+        <div class="input-group">
+            <input type="checkbox" value="check">
+            <span>CSS</span>
+        </div>
+
+        <div class="input-group">
+            <input type="checkbox" value="check">
+            <span>Java</span>
+        </div>
+
+        <div class="input-group">
+            <input type="checkbox" value="check">
+            <span>Python</span>
+        </div>
+    </div>
+
+    <div class="section-box">
+        <p class="section-title">What are your expectations?</p>
+        <textarea placeholder="Enter your expectations here"></textarea>
+    </div>
+
+    <button id="submit" type="submit">Submit</button>
+</form>
+
+</body>
+</html>
